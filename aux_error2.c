@@ -11,13 +11,8 @@ char *error_env(data_shell *datash)
 	char *error;
 	char *ver_str;
 	char *msg;
-	char *itoa;
 
-<<<<<<< HEAD:error2.c
-	ver_str = _itoa(datash->counter);
-=======
 	ver_str = aux_itoa(datash->counter);
->>>>>>> 7677e6fd77db94288a8d64c60e84e9d3be8f0f6a:aux_error2.c
 	msg = ": Unable to add/remove from environment\n";
 	length = _strlen(datash->av[0]) + _strlen(ver_str);
 	length += _strlen(datash->args[0]) + _strlen(msg) + 4;
@@ -51,13 +46,8 @@ char *error_path_126(data_shell *datash)
 	int length;
 	char *ver_str;
 	char *error;
-	char *itoa;
 
-<<<<<<< HEAD:error2.c
-	ver_str = _itoa(datash->counter);
-=======
 	ver_str = aux_itoa(datash->counter);
->>>>>>> 7677e6fd77db94288a8d64c60e84e9d3be8f0f6a:aux_error2.c
 	length = _strlen(datash->av[0]) + _strlen(ver_str);
 	length += _strlen(datash->args[0]) + 24;
 	error = malloc(sizeof(char) * (length + 1));
