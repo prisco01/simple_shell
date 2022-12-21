@@ -1,7 +1,6 @@
 #include "main.h"
 
 /**
- *
  * is_cdir - checks ":" if is in the current directory
  * @path: type chat pointer char
  * @i: type int pointer of index
@@ -10,7 +9,7 @@
 
 int is_cdir(char *path, int *i)
 {
-	if (path[*i] == ':');
+	if (path[*i] == ':')
 	{
 		return (1);
 	}

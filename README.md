@@ -217,7 +217,7 @@ $ echo $NAME
 $
 Authors ✒️
 Dapo Olagunju || Github | Twitter | email
-Angellica Monye || Github | Twitter | email
+Angelica MoNnye || Github | Twitter | email
 Acknowledgements 🙏
 shellex emulates basic functionality of the sh shell. This README borrows form the Linux man pages sh(1) and dash(1).
 
